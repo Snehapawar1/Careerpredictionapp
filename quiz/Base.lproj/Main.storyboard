@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CpE-9C-zHi">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Ec1-C9-i5V">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
@@ -18,10 +18,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Medical" translatesAutoresizingMaskIntoConstraints="NO" id="spg-Di-2gj">
-                                <rect key="frame" x="0.0" y="166" width="393" height="593"/>
+                                <rect key="frame" x="0.0" y="210" width="393" height="549"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73R-ex-i1q">
-                                <rect key="frame" x="119" y="736" width="155" height="60"/>
+                                <rect key="frame" x="119" y="780" width="155" height="16"/>
                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign up">
@@ -32,10 +32,10 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="pnZ-BC-t4w">
-                                <rect key="frame" x="0.0" y="0.0" width="110" height="200"/>
+                                <rect key="frame" x="0.0" y="44" width="110" height="156"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GFQ-tt-9fx">
-                                        <rect key="frame" x="0.0" y="0.0" width="110" height="200"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="110" height="156"/>
                                     </stackView>
                                 </subviews>
                             </stackView>
@@ -57,17 +57,18 @@
                             <constraint firstItem="73R-ex-i1q" firstAttribute="leading" secondItem="gSZ-GD-SXA" secondAttribute="leading" constant="119" id="uoX-BG-PMd"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="yI5-Hp-tSf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="02M-Tq-uzn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2741" y="-80"/>
+            <point key="canvasLocation" x="-1814.5038167938931" y="-80.281690140845072"/>
         </scene>
         <!--Log in-->
         <scene sceneID="awv-cM-1JC">
             <objects>
                 <viewController title="Log in" id="5pu-pU-Jgy" customClass="EmailViewcontroller" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rPk-Xg-wRp">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Career Prediction app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iL1-wA-Dms">
@@ -118,7 +119,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icf-w8-Znz">
-                                <rect key="frame" x="131" y="658" width="182" height="66"/>
+                                <rect key="frame" x="117" y="675" width="182" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Sign in"/>
@@ -140,14 +141,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u0J-wF-b4N" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1289.3129770992366" y="-79.577464788732399"/>
+            <point key="canvasLocation" x="-362.59541984732823" y="-79.577464788732399"/>
         </scene>
         <!--Signup Viewcontroller-->
         <scene sceneID="4m1-30-a8l">
             <objects>
                 <viewController id="M33-Vf-wYX" customClass="SignupViewcontroller" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="upt-vu-7f9" customClass="Signup">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Career Prediction app" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wj3-rV-qZ2">
@@ -240,14 +241,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g0p-69-0Lo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2005.3435114503816" y="-80.281690140845072"/>
+            <point key="canvasLocation" x="-1078.6259541984732" y="-80.281690140845072"/>
         </scene>
         <!--intro-->
         <scene sceneID="S3L-Cf-iPW">
             <objects>
                 <viewController title="intro" id="2zL-dX-4SN" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HKT-P5-8rj">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome🚀" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2f-eX-LTf">
@@ -304,14 +305,14 @@ Welcome to the Career Prediction App! Discover your ideal career path based on y
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hmY-Pb-MWS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-585.49618320610682" y="-80.281690140845072"/>
+            <point key="canvasLocation" x="341.2213740458015" y="-80.281690140845072"/>
         </scene>
         <!--guidelines-->
         <scene sceneID="8r7-lF-scO">
             <objects>
                 <viewController title="guidelines" id="F8c-Ri-18Y" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Dhh-i0-TZD">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Quiz Guidelines" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kjU-pp-mFY">
@@ -354,14 +355,14 @@ Welcome to the Career Prediction App! Discover your ideal career path based on y
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1q-bc-m0n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="107.63358778625954" y="-80.281690140845072"/>
+            <point key="canvasLocation" x="1034.3511450381679" y="-80.281690140845072"/>
         </scene>
         <!--quiz-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController title="quiz" id="BYZ-38-t0r" customClass="ViewController" customModule="quiz" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYX-Wr-C0g">
@@ -414,7 +415,6 @@ Welcome to the Career Prediction App! Discover your ideal career path based on y
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
                                     <action selector="nextButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BLL-NV-2IU"/>
-                                    <segue destination="op2-ba-b3U" kind="show" id="Yar-XY-xOJ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -433,41 +433,29 @@ Welcome to the Career Prediction App! Discover your ideal career path based on y
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="817.55725190839689" y="-80.281690140845072"/>
+            <point key="canvasLocation" x="1744.2748091603053" y="-80.281690140845072"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="Iox-M7-Njh">
+        <!--Navigation Controller-->
+        <scene sceneID="EMJ-ic-cZ0">
             <objects>
-                <viewController id="op2-ba-b3U" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="FDl-bm-h0K">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulations🥳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fzw-Wk-PRR">
-                                <rect key="frame" x="29" y="71" width="334" height="103"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" systemColor="systemCyanColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="redraw" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Digital Literacy Group Quiz Education Presentation in Light Blue Graphic Style-2 2" translatesAutoresizingMaskIntoConstraints="NO" id="ymC-9t-H2I">
-                                <rect key="frame" x="16" y="182" width="361" height="509"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Fpk-vU-tma"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="hDD-gt-rHy"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4aI-kT-g6g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Ec1-C9-i5V" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4Z3-hw-wLM">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="CpE-9C-zHi" kind="relationship" relationship="rootViewController" id="hCK-wF-Xjh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ofO-Pg-Sb8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1513.7404580152672" y="-80.281690140845072"/>
+            <point key="canvasLocation" x="-2741.2213740458014" y="-80.281690140845072"/>
         </scene>
     </scenes>
     <resources>
         <image name="Digital Literacy Group Quiz Education Presentation in Light Blue Graphic Style-2" width="1920" height="1080"/>
-        <image name="Digital Literacy Group Quiz Education Presentation in Light Blue Graphic Style-2 2" width="1920" height="1080"/>
         <image name="Medical" width="500" height="500"/>
         <image name="envelope.circle" catalog="system" width="128" height="123"/>
         <image name="lock" catalog="system" width="111" height="128"/>
