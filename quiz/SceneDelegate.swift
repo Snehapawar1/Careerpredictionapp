@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  quiz
 //
-//  Created by SUJAL SALGAONKAR on 19/10/24.
+//  Created by Sneha pawar on 19/10/24.
 //
 
 import UIKit
